@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: notepid/rsactftool:latest,notepid/rsactftool:$(date +%s)
+          tags: notepid/rsactftool:latest
