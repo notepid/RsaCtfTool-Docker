@@ -4,5 +4,5 @@
 
 Mount your files under /data for relative path access.
 ```
-docker run --rm -it -v $PWD:/data barchok/rsactftool-docker <arguments> 
+docker run --rm -it -v $PWD:/data notepid/rsactftool <arguments> 
 ```
